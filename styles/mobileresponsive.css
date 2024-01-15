@@ -63,7 +63,8 @@
     }
     .popular .popular-img{
         border-radius: 16px;
-        width: 335px;
+        width: 100%;
+        max-width: 600px;
         height: 342px;
     }
     .popular-img img{
@@ -120,14 +121,40 @@
     }
     .newsletter-content{
         padding: 24px;
-        /* height: 353px; */
+        height: 360px;
     }
     .horizontal-line{
         width: 100%;
         max-width: 288px;
     }
+    .newletter-form{
+        margin-top: 16px;
+    }.newletter-form form input{
+        width: 100%;
+        max-width: 600px;
+    }
     .newsletter-content, .newsletter-img img{
         width: 100%;
         max-width: 600px;;
+    }
+    .newsletter-img{
+        width: 100%;
+        max-width: 600px;
+        height: 300px;
+    }
+    .newsletter-img img{
+        width: 100%;
+        max-width: 600px;
+    }
+    .discount{
+        width: 100%;
+        max-width: 215px;
+        height: 80px;
+    }
+    .discount h3{
+        font-size: 1rem;
+    }
+    .discount h2{
+        font-size: 21px;
     }
 }
