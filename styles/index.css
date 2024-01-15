@@ -148,7 +148,7 @@ section{
     font-weight: 800;
 }
 #maldives{
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group_13.png);
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Rectangle_5.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -293,5 +293,89 @@ section{
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* newsletter section starts here  */
+
+.newsletter{
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter-content{
+    width: 100%;
+    max-width: 474px;
+    height: 422px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.horizontal-line{
+    width: 100%;
+    max-width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.newletter-form{
+    margin-top: 24px;
+}
+.newletter-form form input{
+    width: 100%;
+    max-width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #1313180d;
+    border: none;
+    outline: none;
+    color: #1313184d;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 0 16px 20px;
+    margin-top: 16px;
+}
+.newletter-form form input[type='button']{
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0px;
+}
+.newsletter-img{
+    background-image: url('../Images/Rectangle_8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    position: relative;
+}
+.newsletter-img img{
+    width: 100%;
+    max-width: 672px;
+}
+.discount{
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    width: 100%;
+    max-width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+.discount h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.discount h2{
+    font-size: 32px;
+    font-weight: 800;
+}
 
 

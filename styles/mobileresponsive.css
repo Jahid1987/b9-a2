@@ -20,7 +20,7 @@
 
     .banner{
         width: 100%;
-        max-width: 500px;
+        max-width: 600px;
         height: 483px;
         background-position: center;
         margin: 0 auto;
@@ -68,7 +68,7 @@
     }
     .popular-img img{
         width: 100%;
-        max-width: 335px;
+        max-width: 600px;
         object-fit: cover;
     }
     .popular ul{
@@ -85,10 +85,10 @@
     #maldives, #indonesia, #srilanka, #north_america, #kashmir, #bangladesh, #bandarban{
         grid-column: 1/ span 12;
         width: 100%;
-        max-width: 335px;
+        max-width: 600px;
         height: 176px;
         background-position: center;
-        object-fit: cover;
+        background-size: cover;
     }
     /* why choose us section  */
     .choose-cards .card img{
@@ -111,5 +111,23 @@
     }
     #price-tag{
         grid-column: 1/ span 12;
+    }
+
+    /* newsletter section starts  */
+    .newsletter{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .newsletter-content{
+        padding: 24px;
+        /* height: 353px; */
+    }
+    .horizontal-line{
+        width: 100%;
+        max-width: 288px;
+    }
+    .newsletter-content, .newsletter-img img{
+        width: 100%;
+        max-width: 600px;;
     }
 }
