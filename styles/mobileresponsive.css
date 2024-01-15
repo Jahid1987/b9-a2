@@ -1,0 +1,45 @@
+@media screen and (max-width: 600px) {
+    .text-light-grey{
+        font-size: .875rem;
+        line-height: 1.3rem;
+    }
+    main{
+        width: 100%;
+        max-width: 600px;
+    }
+    section{
+        margin-top: 24px;
+    }
+    .banner{
+        width: 100%;
+        max-width: 500px;
+        height: 483px;
+        background-position: center;
+        margin: 0 auto;
+        border-radius: 16px;
+        position: relative;
+        padding: 0 20px;
+    }
+    .banner-content{
+        position: absolute;
+        top: 32px;
+        left: 16px;
+    }
+    .banner-title{
+        font-size: 1.375rem;
+    }
+    .banner-form{
+        margin-top: 5px;
+    }
+    .banner-form form{
+        width: 288px;
+        height: 288px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        border-radius: 8px;
+        height: 280px;
+        align-items: center;
+    }
+}
