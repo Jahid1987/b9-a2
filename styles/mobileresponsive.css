@@ -1,7 +1,12 @@
 @media screen and (max-width: 600px) {
-    .text-light-grey{
+    /* Shared styles  */
+    .text-white, .text-light-grey{
         font-size: .875rem;
         line-height: 1.3rem;
+        margin: 16px 0;
+    }
+    .section-title{
+        font-size: 1.25rem;
     }
     main{
         width: 100%;
@@ -10,6 +15,9 @@
     section{
         margin-top: 24px;
     }
+
+    /* banner sections  */
+
     .banner{
         width: 100%;
         max-width: 500px;
@@ -18,7 +26,6 @@
         margin: 0 auto;
         border-radius: 16px;
         position: relative;
-        padding: 0 20px;
     }
     .banner-content{
         position: absolute;
@@ -41,5 +48,59 @@
         border-radius: 8px;
         height: 280px;
         align-items: center;
+    }
+    .banner-form form *{
+        width: 255px;
+        height: 52px;
+    }
+
+    /* popular section  */
+
+
+    .popular{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .popular .popular-img{
+        border-radius: 16px;
+        width: 335px;
+        height: 342px;
+    }
+    .popular-img img{
+        width: 100%;
+        max-width: 335px;
+        object-fit: cover;
+    }
+    .popular ul{
+        margin: 16px 0 16px 35px;
+    }
+    .popular ul li{
+        color: #131318b3;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    /* why choose us section  */
+    .choose-cards .card img{
+        width: 48px;
+        height: 48px;
+    }
+    .choose-cards .card-title{
+        font-size: 20px;
+        font-weight: 800;
+        margin: 16px 0;
+    }.choose-cards .card-msg{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #hotel{
+        grid-column: 1/ span 12;
+    }
+    #map{
+        grid-column: 1/span 12;
+    }
+    #price-tag{
+        grid-column: 1/ span 12;
     }
 }

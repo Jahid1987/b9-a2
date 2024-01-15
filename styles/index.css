@@ -11,16 +11,30 @@ main{
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 section{
     margin-top: 100px;
+    /* padding: 0 10px; */
 }
-.text-light-grey{
+.text-white{
     color: #fff;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
     margin: 24px 0;
+}
+.text-light-grey{
+    color: #131318b3;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin: 24px 0;
+}
+.section-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 .primary-btn{
     width: 174px;
@@ -31,6 +45,7 @@ section{
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
+    border: none;
 }
 /* banner section starts here  */
 .banner{
@@ -55,6 +70,9 @@ section{
     font-size: 4rem;
     color: #fff;
     font-weight: 800;
+}
+.banner-content .message{
+    max-width: 676px;
 }
 .banner-form{
     margin-top: 48px
@@ -82,4 +100,86 @@ section{
 .banner-form form .primary-btn{
     background: #FF5400;
 }
+
+
+/* popular section starts here  */
+.popular{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.popular ul{
+    margin: 24px 0 24px 35px;
+}
+.popular ul li{
+    color: #131318b3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.popular-img img{
+    border-radius: 16px;
+}
+
+/* Why choose us section starts  */
+.why-choose{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    align-content: center;
+}
+.choose-content{
+    text-align: center;
+    width: 100%;
+    max-width: 643px;
+}
+.choose-cards{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(12, 1fr);
+}
+.choose-cards .card{
+    padding: 32px;
+    width: 100%;
+    max-width: 573px;
+    height: 284px;
+    border-radius: 16px;
+}
+.choose-cards .card img{
+    width: 64px;
+    height: 64px;
+}
+.choose-cards .card-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.choose-cards .card-msg{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+#hotel{
+    grid-column: 1/ span 6;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+#map{
+    grid-column: 7/span 6;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#price-tag{
+    grid-column: 4/ span 6;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+
 
