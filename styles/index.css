@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Mulish', sans-serif;
+}
+main{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 100px;
+}
+.text-light-grey{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin: 24px 0;
+}
+/* banner section starts here  */
+.banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group_13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    display: grid;
+    place-items: center;
+}
+.banner-content{
+    display: grid;
+    place-items: center;
+}
+.banner-content .banner-title{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 800;
+}
+.banner-content .banner-form{
+    margin-top: 48px;
+
+}
+.banner-form form{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;    
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 768px;
+    height: 52px;
+}
+.banner-form form *{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #fff;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding: 16px 0 16px 16px;
+}
+.banner-form form input[type="button"]{
+    background: #FF5400;
+    color: #fff;
+    border: none;
+}
