@@ -80,7 +80,16 @@
         font-weight: 400;
         line-height: 24px;
     }
-
+ 
+    /* Choose destination sections starts  */
+    #maldives, #indonesia, #srilanka, #north_america, #kashmir, #bangladesh, #bandarban{
+        grid-column: 1/ span 12;
+        width: 100%;
+        max-width: 335px;
+        height: 176px;
+        background-position: center;
+        object-fit: cover;
+    }
     /* why choose us section  */
     .choose-cards .card img{
         width: 48px;

@@ -123,6 +123,118 @@ section{
     border-radius: 16px;
 }
 
+
+/* Choose destination sections starts  */
+
+.destination-content{
+    display: grid;
+    place-items: center;
+}
+.destination-content .text-light-grey{
+    width: 100%;
+    max-width: 643px;
+}
+.destination-imgs{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    place-items: center;
+    width: 100%;
+    max-width: 1170px;
+    gap: 24px;
+}
+.destination-imgs h3{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+#maldives{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 673px;
+    height: 300px;
+    grid-column: 1/span 6;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle_5.png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+#indonesia{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width:673px;
+    height: 300px;
+    grid-column: 7/span 6;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle_8_1.png);
+    background-repeat: no-repeat;
+}
+#srilanka{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width:374px;
+    height: 286px;
+    grid-column: 1/span 4;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle_6.png);
+    background-repeat: no-repeat;
+}
+#north_america{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width:474px;
+    height: 286px;
+    grid-column: 5/span 5;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle_7.png);
+    background-repeat: no-repeat;
+}
+#kashmir{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width:274px;
+    height: 286px;
+    grid-column: 10/span 3;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle_9.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#bangladesh{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width:473px;
+    height: 300px;
+    grid-column: 1/span 5;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle_11.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#bandarban{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width:673px;
+    height: 300px;
+    grid-column: 6/span 7;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle_10.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
 /* Why choose us section starts  */
 .why-choose{
     display: flex;
