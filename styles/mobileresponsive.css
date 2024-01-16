@@ -182,10 +182,27 @@
     .discount h2{
         font-size: 21px;
     }
+    
+    /* testimonial section starts  */
 
+    .testimonial-cards{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .testimonial-cards .card{
+        margin-top: 70px;
+        max-width: 600px;
+    }
+    .testimonial-cards .card-img-bg{
+        transform: translate(-50%, -145%);
+    }
+    .testimonial-cards .card-img{
+        transform: translate(-50%, -170%);
+    }
     /* footer section */
     footer{
         height: 310px;
+        margin-top: 50px;
     }
     .footer-msg{
         width: 100%;
@@ -194,5 +211,6 @@
     footer .horizontal-line{
         width: 100%;
         max-width: 335px;
+        margin: 20px 0;
     }
 }

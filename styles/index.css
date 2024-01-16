@@ -428,6 +428,69 @@ section{
     font-size: 32px;
     font-weight: 800;
 }
+/* testimonial section starts here  */
+
+.testimonial{
+    width: 100%;
+    max-width: 1170px;
+    height: auto;
+}
+.testimonial-content{
+    text-align: center;
+}
+.testimonial-cards{
+    display: flex;
+    justify-content: space-around;
+
+    gap: 20px;
+    margin-top: 100px;
+}
+.testimonial-cards .card{
+    width: 100%;
+    max-width: 300px;
+    background-color: #1313180d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    position: relative;
+}
+.testimonial-cards .card-img-bg{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -175%);
+    border-radius: 50%;
+}
+.testimonial-cards .card-img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -205%);
+    object-fit: cover;
+}
+.card-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.card-text{
+    margin-top: 30px;
+}
+.card-text q{
+    font-size: 16px;
+}
+.card-text p{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 /* footer section starts here  */
 footer{
@@ -461,6 +524,20 @@ footer .horizontal-line{
     max-width: 870px;
     margin: 50px 0;
 
+}
+footer .social-medias > ul{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.social-medias > ul li{
+    list-style: none;
+    padding: 5px;
+}
+.social-medias > ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #131318;
 }
 .copyright{
     color: #131318;
