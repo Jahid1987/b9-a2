@@ -17,6 +17,20 @@
     }
 
     /* nav section starts here  */
+    nav{
+        display: none;
+    }
+    .hambarger-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        margin: 20px auto;
+    }
+    .hambarger-menu img{
+        width: 28px;
+        height: 34px;
+    }
 
     /* banner sections  */
 

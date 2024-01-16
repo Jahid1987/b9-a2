@@ -78,7 +78,9 @@ section{
     nav .active{
         color: #FF5400;
     }
-
+    .hambarger-menu{
+        display: none;
+    }
 
 /* banner section starts here  */
 
