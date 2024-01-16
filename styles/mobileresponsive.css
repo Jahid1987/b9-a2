@@ -16,6 +16,8 @@
         margin-top: 24px;
     }
 
+    /* nav section starts here  */
+
     /* banner sections  */
 
     .banner{
@@ -49,10 +51,15 @@
         height: 280px;
         align-items: center;
     }
-    .banner-form form *{
+    .banner-form form input, select{
         width: 255px;
         height: 52px;
     }
+    .banner-form .primary-btn{
+        width: 255px;
+    }
+
+
 
     /* popular section  */
 
@@ -84,6 +91,9 @@
     }
  
     /* Choose destination sections starts  */
+    .destination-imgs h3{
+        font-size: 20px;
+    }
     #maldives, #indonesia, #srilanka, #north_america, #kashmir, #bangladesh, #bandarban{
         grid-column: 1/ span 12;
         width: 100%;

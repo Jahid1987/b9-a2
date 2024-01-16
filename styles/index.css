@@ -50,7 +50,38 @@ section{
     font-weight: 700;
     border: none;
 }
+
+ /* nav section starts here  */
+    nav{
+        width: 100%;
+        max-width: 1186px;
+        height: 56px;
+        margin: 52px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+    nav>ul{
+        display: flex;
+        gap: 44px;
+    }
+    nav> ul li{
+        list-style: none;
+    }
+    nav> ul li a{
+        text-decoration: none;
+        color: #424247;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    nav .active{
+        color: #FF5400;
+    }
+
+
 /* banner section starts here  */
+
 .banner{
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group_13.png);
     background-repeat: no-repeat;
@@ -61,6 +92,7 @@ section{
     border-radius: 16px;
     display: grid;
     place-items: center;
+    margin-top: 50px;
 }
 .banner-content{
     display: flex;
@@ -90,7 +122,7 @@ section{
     width: 768px;
     height: 82px;
 }
-.banner-form form *{
+.banner-form form input, select{
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -409,17 +441,17 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-.footer-title{
+.logo-name{
     display: flex;
     align-content: center;
     align-items: center;
     gap: 16px;
 }
-.footer-title img{
+.logo-name img{
     width: 40px;
     height: 46.673px;
 }
-.footer-title span{
+.logo-name span{
     color: #FF5400;
 }
 footer .horizontal-line{
